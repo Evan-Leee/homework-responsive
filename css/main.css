@@ -1,4 +1,55 @@
 body {
     background: url("../images/background-body.jpg");
+    background-size: 104%;
     background-repeat: repeat-y;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.top-bg,
+div.container,
+div.bottom-bg{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section div.top-bg {
+    background: url("../images/head.png");
+    min-height: 41px;
+    background-size: 100% 100%;
+    margin: 0 47px;
+}
+
+section div.container {
+    background: url("../images/background-container.png");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    min-height: 800px;
+}
+
+section div.bottom-bg {
+    background: url("../images/foot.png") no-repeat;
+    background-size: 100%;
+    min-height: 41px;
+}
+
+.container .left-block,
+.container .right-block{
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    margin: 0;
+}
+.container .left-block {
+    min-height: 100%;
+    min-width: 30%;
+}
+
+.container .right-block {
+    min-height: 100%;
+    min-width: 60%;
 }
