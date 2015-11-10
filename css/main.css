@@ -1,27 +1,35 @@
 body {
     background: url("../images/background-body.jpg");
-    background-size: 104%;
+    background-size: 103%;
     background-repeat: repeat-y;
 }
 
 section {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 div.top-bg,
 div.container,
-div.bottom-bg{
+div.bottom-bg {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
 }
 
 section div.top-bg {
+    position:relative;
+    padding: 0 3px;
     background: url("../images/head.png");
     min-height: 41px;
-    background-size: 100% 100%;
-    margin: 0 47px;
+    background-size: 99.4% 100%;
+    margin: 0 auto;
 }
 
 section div.container {
@@ -38,18 +46,97 @@ section div.bottom-bg {
 }
 
 .container .left-block,
-.container .right-block{
+.container .right-block {
     display: inline-block;
     vertical-align: top;
     border: none;
     margin: 0;
 }
+
 .container .left-block {
     min-height: 100%;
-    min-width: 30%;
+    max-width: 30%;
 }
 
 .container .right-block {
     min-height: 100%;
-    min-width: 60%;
+    max-width: 60%;
+}
+
+.container .left-block img {
+    width: 100%;
+}
+
+.nav {
+    margin: 0 40px;
+}
+
+.nav li {
+    padding: 14px 0;
+    border: none;
+    border-bottom: 1px solid #dbc497;
+    border-top: 1px solid #efdba8;
+    color: #db6800;
+}
+
+.nav li:hover {
+    background: url("../images/hover-bacakground.png");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+div.right-block-hd p {
+    text-align: left;
+    text-indent: 2em;
+}
+
+div.middle-tt {
+    margin: 10px auto;
+}
+
+div hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    border: none;
+    border-bottom: 2px solid #D7BF97;
+}
+
+div.middle-tt span {
+    margin: 0 5%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+div.middle-content .images {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 4%;
+    margin-top: 25px;
+}
+
+div.middle-content .images img {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 150px;
+}
+
+div.middle-content .last-one {
+    margin-right: 0;
+}
+
+div.ft-tt {
+    margin-top: 30px;
+}
+
+div.ft-tt img {
+    width: 10%;
+    vertical-align: middle;
+    margin: 0 45px;
+}
+
+div.ft-content {
+    color: #db6800;
 }
