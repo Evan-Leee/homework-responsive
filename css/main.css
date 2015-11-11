@@ -193,3 +193,24 @@ div.ft-content {
         margin: 0 auto;
     }
 }
+
+
+@media screen and (max-width:480px){
+    .nav {
+        margin: 0 10px;
+        width: 100%;
+    }
+
+    div.middle-content .images {
+        margin: 0 20px;
+        width: 90%;
+        height: 100%;
+    }
+
+    div.middle-content .images img {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        height: 230px;
+    }
+}
