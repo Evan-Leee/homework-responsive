@@ -103,7 +103,7 @@ div hr {
 }
 
 div.middle-tt span {
-    margin: 0 10px;
+    margin: 0 1vw;
     font-size: 17px;
     font-weight: bold;
 }
@@ -143,6 +143,7 @@ div.ft-content {
 
 @media screen and (max-width:700px){
 
+
     div.middle-content .images img {
         width: 100%;
         border: none;
@@ -163,7 +164,7 @@ div.ft-content {
 
 
     .container .left-block img {
-        width: 24%;
+        width: 30%;
         vertical-align: middle;
     }
 
@@ -195,7 +196,13 @@ div.ft-content {
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:500px){
+
+    .container .left-block img {
+        width: 90%;
+        vertical-align: middle;
+    }
+
     .nav {
         margin: 0 10px;
         width: 100%;
