@@ -120,7 +120,6 @@ div.middle-content .images img {
     width: 100%;
     border: none;
     border-radius: 10px;
-    height: 150px;
 }
 
 div.middle-content .last-one {
@@ -148,7 +147,6 @@ div.ft-content {
         width: 100%;
         border: none;
         border-radius: 10px;
-        height: 200px;
     }
 
     div.middle-content .images{
@@ -218,6 +216,5 @@ div.ft-content {
         width: 100%;
         border: none;
         border-radius: 10px;
-        height: 230px;
     }
 }
