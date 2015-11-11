@@ -103,7 +103,7 @@ div hr {
 }
 
 div.middle-tt span {
-    margin: 0 3%;
+    margin: 0 10px;
     font-size: 17px;
     font-weight: bold;
 }
@@ -139,4 +139,8 @@ div.ft-tt img {
 
 div.ft-content {
     color: #db6800;
+}
+
+@media screen and(max-width:730px){
+
 }
